@@ -1,0 +1,10 @@
+.vscode/**
+.git/**
+.gitignore
+scripts/**
+**/*.pyc
+__pycache__/**
+*.vsix
+assets/test_*
+assets/icons-hd/**
+

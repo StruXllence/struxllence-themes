@@ -1,0 +1,103 @@
+{
+  "name": "struxllence-themes",
+  "displayName": "StruXllence Themes",
+  "description": "Luxury engineering dark & light theme suite for VS Code and VS Code Insiders, with high-definition custom File Icons and Product Icon Themes.",
+  "version": "1.0.1",
+  "publisher": "StruXllence",
+  "author": {
+    "name": "Srinivasa Rao Masanam",
+    "email": "srinivasa@struxllence.com",
+    "url": "https://struxllence.com"
+  },
+  "license": "MIT",
+  "icon": "assets/extension-icon.png",
+  "galleryBanner": {
+    "color": "#111215",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "light theme",
+    "struxllence",
+    "amber",
+    "orange",
+    "graphite",
+    "minimal",
+    "modern",
+    "premium",
+    "contrast",
+    "high contrast",
+    "accessible",
+    "eye strain",
+    "engineering",
+    "file icons",
+    "product icon theme",
+    "icon theme",
+    "aesthetic",
+    "clean",
+    "rust",
+    "python",
+    "typescript",
+    "c++",
+    "go",
+    "developer tools"
+  ],
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "scripts": {
+    "package": "vsce package --allow-missing-repository",
+    "publish": "vsce publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/struxllence/struxllence-themes"
+  },
+  "bugs": {
+    "url": "https://github.com/struxllence/struxllence-themes/issues"
+  },
+  "homepage": "https://struxllence.com",
+  "contributes": {
+    "themes": [
+      {
+        "label": "StruXllence Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/struxllence-dark-color-theme.json"
+      },
+      {
+        "label": "StruXllence Light",
+        "uiTheme": "vs",
+        "path": "./themes/struxllence-light-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "struxllence-file-icons-dark",
+        "label": "StruXllence File Icons (Dark)",
+        "path": "./icons/file-icons/struxllence-file-icon-theme-dark.json"
+      },
+      {
+        "id": "struxllence-file-icons-light",
+        "label": "StruXllence File Icons (Light)",
+        "path": "./icons/file-icons/struxllence-file-icon-theme-light.json"
+      }
+    ],
+    "productIconThemes": [
+      {
+        "id": "struxllence-product-icons-dark",
+        "label": "StruXllence Product Icons (Dark)",
+        "path": "./icons/product-icons/struxllence-product-icon-theme-dark.json"
+      },
+      {
+        "id": "struxllence-product-icons-light",
+        "label": "StruXllence Product Icons (Light)",
+        "path": "./icons/product-icons/struxllence-product-icon-theme-light.json"
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,36 @@
+{
+  "fonts": [
+    {
+      "id": "struxllence-product-icons",
+      "src": [
+        {
+          "path": "./fonts/struxllence-product-icons.woff",
+          "format": "woff"
+        }
+      ],
+      "weight": "normal",
+      "style": "normal"
+    }
+  ],
+  "iconDefinitions": {
+    "view-explorer": { "fontCharacter": "\\E001" },
+    "view-search": { "fontCharacter": "\\E002" },
+    "view-scm": { "fontCharacter": "\\E003" },
+    "view-debug": { "fontCharacter": "\\E004" },
+    "view-extensions": { "fontCharacter": "\\E005" },
+    "settings-gear": { "fontCharacter": "\\E006" },
+    "account": { "fontCharacter": "\\E007" },
+    "bell": { "fontCharacter": "\\E008" },
+    "terminal": { "fontCharacter": "\\E009" },
+    "split-horizontal": { "fontCharacter": "\\E00A" },
+    "close": { "fontCharacter": "\\E00B" },
+    "chevron-right": { "fontCharacter": "\\E00C" },
+    "chevron-down": { "fontCharacter": "\\E00D" },
+    "folder": { "fontCharacter": "\\E00E" },
+    "file": { "fontCharacter": "\\E00F" },
+    "refresh": { "fontCharacter": "\\E010" },
+    "filter": { "fontCharacter": "\\E011" },
+    "play": { "fontCharacter": "\\E012" }
+  }
+}
+

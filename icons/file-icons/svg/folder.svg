@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="folderG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#374151" />
+      <stop offset="100%" stop-color="#1E1E1E" />
+    </linearGradient>
+    <linearGradient id="tabG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F57C00" />
+      <stop offset="100%" stop-color="#D84315" />
+    </linearGradient>
+  </defs>
+  <!-- Tab -->
+  <path d="M15 28 L40 28 L48 38 L85 38 C88 38 90 40 90 43 L90 78 C90 82 87 85 83 85 L17 85 C13 85 10 82 10 78 L10 33 C10 30 12 28 15 28 Z" fill="url(#tabG)" />
+  <!-- Folder Body -->
+  <path d="M10 42 L90 42 L88 78 C88 82 85 85 81 85 L19 85 C15 85 12 82 12 78 Z" fill="url(#folderG)" stroke="#F57C00" stroke-width="2.5" />
+  <line x1="16" y1="52" x2="84" y2="52" stroke="#6B7280" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6"/>
+</svg>
