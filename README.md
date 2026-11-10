@@ -4,7 +4,7 @@
 
 ![StruXllence Themes Banner](https://raw.githubusercontent.com/struxllence/struxllence-themes/main/assets/marketplace-banner.png)
 
-[![Install in VS Code](https://img.shields.io/badge/VS%20Code-Install_Theme-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)](vscode:extension/StruXllence.struxllence-themes)
+[![Install in VS Code](https://img.shields.io/badge/VS%20Code-Install_Theme-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=StruXllence.struxllence-themes)
 [![View on Marketplace](https://img.shields.io/badge/Marketplace-StruXllence-F57C00?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=StruXllence.struxllence-themes)
 
 [![Version](https://img.shields.io/badge/version-1.0.1-F57C00.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=StruXllence.struxllence-themes)
