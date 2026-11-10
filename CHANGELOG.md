@@ -2,6 +2,15 @@
 
 All notable changes to the **StruXllence Themes** extension suite will be documented in this file.
 
+## [1.0.2] - 2026-11-10
+
+### Fixed & Enhanced
+- **Official GitHub Repository Integration**: Connected to [`StruXllence/struxllence-themes`](https://github.com/StruXllence/struxllence-themes).
+- **Asset CDN Resolution**: Hosted all high-definition banners, theme previews, and icon showcases via GitHub's CDN to ensure immediate, crystal-clear rendering across both the VS Code Marketplace and in-editor extension details view.
+- **Authentic Metrics**: Removed static placeholder mock badges in favor of verified store analytics and direct 1-click installation links.
+
+---
+
 ## [1.0.1] - 2026-11-10
 
 ### Enhanced

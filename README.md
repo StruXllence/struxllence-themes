@@ -7,7 +7,7 @@
 [![Install in VS Code](https://img.shields.io/badge/VS%20Code-Install_Theme-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=StruXllence.struxllence-themes)
 [![View on Marketplace](https://img.shields.io/badge/Marketplace-StruXllence-F57C00?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=StruXllence.struxllence-themes)
 
-[![Version](https://img.shields.io/badge/version-1.0.1-F57C00.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=StruXllence.struxllence-themes)
+[![Version](https://img.shields.io/badge/version-1.0.2-F57C00.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=StruXllence.struxllence-themes)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.74%2B-007acc.svg?style=flat-square)](https://code.visualstudio.com/)
 
