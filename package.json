@@ -1,8 +1,8 @@
 {
   "name": "struxllence-themes",
   "displayName": "StruXllence Themes",
-  "description": "Luxury engineering dark & light theme suite for VS Code and VS Code Insiders, with high-definition custom File Icons and Product Icon Themes.",
-  "version": "1.0.2",
+  "description": "Matched dark and light themes with terminal ANSI colours, explicit semantic highlighting, diff colours, and custom file and product icons.",
+  "version": "1.0.3",
   "publisher": "StruXllence",
   "author": {
     "name": "Srinivasa Rao Masanam",
@@ -30,9 +30,6 @@
     "modern",
     "premium",
     "contrast",
-    "high contrast",
-    "accessible",
-    "eye strain",
     "engineering",
     "file icons",
     "product icon theme",
@@ -44,14 +41,18 @@
     "typescript",
     "c++",
     "go",
-    "developer tools"
+    "developer tools",
+    "terminal colors",
+    "semantic highlighting",
+    "diff"
   ],
   "engines": {
     "vscode": "^1.74.0"
   },
   "scripts": {
-    "package": "vsce package --allow-missing-repository",
-    "publish": "vsce publish"
+    "package": "npm test && vsce package",
+    "publish": "npm test && vsce publish",
+    "test": "node --test tests/themes.test.cjs"
   },
   "repository": {
     "type": "git",
@@ -98,6 +99,13 @@
         "path": "./icons/product-icons/struxllence-product-icon-theme-light.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "4.1.1"
+  },
+  "overrides": {
+    "@vscode/vsce": {
+      "minimatch": "11.0.1"
+    }
   }
 }
-

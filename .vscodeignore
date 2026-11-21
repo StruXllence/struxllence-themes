@@ -7,4 +7,9 @@ __pycache__/**
 *.vsix
 assets/test_*
 assets/icons-hd/**
+tests/**
+docs/**
+node_modules/**
+.qa/**
+package-lock.json
 

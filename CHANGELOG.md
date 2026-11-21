@@ -2,6 +2,21 @@
 
 All notable changes to the **StruXllence Themes** extension suite will be documented in this file.
 
+## [1.0.3] - 2026-11-21
+
+### Added
+- Explicit semantic styles for all 23 standard token types, read-only variables/properties and deprecated symbols in both themes. Existing TextMate highlighting remains the fallback.
+- Theme-specific diff line/text fills, diff gutter/overview colours and coordinated Git, minimap and editor gutter markers.
+- Terminal cursor, selection and search colours, plus matched coverage and calculated contrast regression tests for the dark/light pair.
+
+### Improved
+- Refined the existing 16-slot ANSI palettes, particularly bright and neutral text on the light terminal background.
+- Deepened light-theme syntax colours and lifted dark comments, keeping semantic and TextMate categories aligned over the diff fills.
+- Made terminal, semantic-provider and diff coverage explicit in the Marketplace README, including override and true-colour limitations.
+- Replaced unverified universal readability/eye-fatigue claims with the specific scope of the checks performed. Historical release notes below retain their original wording.
+
+This is a theme-only update. It adds no activation code, telemetry, terminal shell integration or external service. The VSIX is prepared for owner publication; packaging does not upload it to Marketplace.
+
 ## [1.0.2] - 2026-11-10
 
 ### Fixed & Enhanced

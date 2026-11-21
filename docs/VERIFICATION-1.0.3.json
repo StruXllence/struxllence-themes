@@ -1,0 +1,123 @@
+{
+  "review_date": "21 Nov 2026",
+  "version": "1.0.3",
+  "published_version_checked": "1.0.2",
+  "before": {
+    "ansi_slots_per_theme": 16,
+    "semanticHighlighting": true,
+    "explicit_semantic_rules": 0,
+    "explicit_diff_colours": 0
+  },
+  "after": {
+    "ansi_slots_per_theme": 16,
+    "semantic_selectors_per_theme": 26,
+    "standard_semantic_types": 23,
+    "paired_themes": 2,
+    "explicit_diff_colours": true
+  },
+  "tests": {
+    "regression_tests_passed": 8,
+    "applications": {
+      "stable": {
+        "version": "1.147.0",
+        "extension_host": [
+          {
+            "mode": "dark",
+            "semanticTokenCount": 29,
+            "semanticTypes": [
+              "class",
+              "enum",
+              "enumMember",
+              "interface",
+              "method",
+              "parameter",
+              "property",
+              "variable"
+            ],
+            "readonlyModifier": true,
+            "diffOpened": true,
+            "terminalAnsiSlots": 16
+          },
+          {
+            "mode": "light",
+            "semanticTokenCount": 29,
+            "semanticTypes": [
+              "class",
+              "enum",
+              "enumMember",
+              "interface",
+              "method",
+              "parameter",
+              "property",
+              "variable"
+            ],
+            "readonlyModifier": true,
+            "diffOpened": true,
+            "terminalAnsiSlots": 16
+          }
+        ],
+        "views": 6,
+        "rendered_ansi_slots_checked": 32,
+        "workbench_colour_checks": 228,
+        "actual_semantic_span_colours_verified": true
+      },
+      "insiders": {
+        "version": "1.148.0-insider",
+        "extension_host": [
+          {
+            "mode": "dark",
+            "semanticTokenCount": 29,
+            "semanticTypes": [
+              "class",
+              "enum",
+              "enumMember",
+              "interface",
+              "method",
+              "parameter",
+              "property",
+              "variable"
+            ],
+            "readonlyModifier": true,
+            "diffOpened": true,
+            "terminalAnsiSlots": 16
+          },
+          {
+            "mode": "light",
+            "semanticTokenCount": 29,
+            "semanticTypes": [
+              "class",
+              "enum",
+              "enumMember",
+              "interface",
+              "method",
+              "parameter",
+              "property",
+              "variable"
+            ],
+            "readonlyModifier": true,
+            "diffOpened": true,
+            "terminalAnsiSlots": 16
+          }
+        ],
+        "views": 6,
+        "rendered_ansi_slots_checked": 32,
+        "workbench_colour_checks": 228,
+        "actual_semantic_span_colours_verified": true
+      }
+    },
+    "vsix_archive_and_all_resource_references_verified": true,
+    "install_in_clean_profile": "passed",
+    "runtime_entry_points": false,
+    "private_test_and_development_files_shipped": false,
+    "dependency_audit": "zero vulnerabilities after patched packaging dependency override"
+  },
+  "artifact": {
+    "name": "struxllence-themes-1.0.3.vsix",
+    "bytes": 1574288,
+    "sha256": "7aa2eae0e047ce20dff66fcca3ba55b5b714a449200cf8511474e1e788c48851",
+    "files": 105
+  },
+  "marketplace_published_by_this_task": false,
+  "forum_reply_posted_by_this_task": false,
+  "user_editor_profile_modified": false
+}

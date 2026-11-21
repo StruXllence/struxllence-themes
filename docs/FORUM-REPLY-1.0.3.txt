@@ -1,0 +1,9 @@
+Thanks for raising this. I checked the extension files rather than relying on the listing, and there is a useful distinction to make.
+
+The published 1.0.2 version already defines all 16 normal and bright terminal ANSI colours in both the dark and light themes. Semantic highlighting is enabled too, but that version relies on VS Code's semantic-to-TextMate fallback mappings; it does not contain explicit semanticTokenColors rules. It also defines Git/editor gutter colours, while diff line and changed-text backgrounds use the editor's defaults.
+
+Your point about drift is valid. I have prepared 1.0.3 with explicit styles for the 23 standard semantic token types, read-only variables/properties and deprecated symbols, plus coordinated diff backgrounds and markers. The terminal palettes, cursor, selection and search colours are also defined, with deeper light-theme colours for readability. The listing now explains that coverage and includes actual editor/diff/terminal captures.
+
+The update has been checked in VS Code Stable and Insiders, including rendered ANSI colours and TypeScript semantic tokens. It is prepared for publication, but is not on Marketplace yet.
+
+Semantic results still depend on the language extension supplying tokens. User overrides and terminal programs using 256-colour/true-colour output can also change the appearance. If you find a mismatch after the update, a screenshot, language-extension version and small sample would help us reproduce it.
